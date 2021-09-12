@@ -17,6 +17,10 @@ public class Greeter {
   }
 
   public static void main(String[] args) {
+    args = new String[3];
+    args[0] = "English";
+    args[1] = "England";
+    args[2] = "cat";
     String language = args[0];
     String country = args[1];
     String name = args[2];
